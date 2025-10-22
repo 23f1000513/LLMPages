@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 960px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        .content-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        pre {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap; /* Ensure text wraps within pre */
+            word-wrap: break-word; /* Break long words */
+        }
+        .svg-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            display: inline-block;
+            max-width: 100%;
+            height: auto; /* Ensure aspect ratio */
+        }
+        .svg-container svg {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .markdown-body {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        .markdown-body p {
+            margin-bottom: 1em;
+        }
+        .markdown-body ul, .markdown-body ol {
+            margin-bottom: 1em;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="pageTitle">Homepage</h1>
+        <nav class="mb-4">
+            <a href="?">Home</a>
+            <a href="?file=ashravan.txt">ashravan.txt</a>
+            <a href="?file=dilemma.json">dilemma.json</a>
+            <a href="?file=about.md">about.md</a>
+            <a href="?file=pelican.svg">pelican.svg</a>
+            <a href="?file=restaurant.json">restaurant.json</a>
+            <a href="?file=prediction.json">prediction.json</a>
+            <a href="?file=LICENSE">LICENSE</a>
+            <a href="?file=uid.txt">uid.txt</a>
+        </nav>
+
+        <div id="mainContent" class="content-section">
+            <!-- Content will be loaded here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Hidden content for each "file" -->
+    <script type="text/plain" id="ashravan.txt-content">
+Ashravan awoke with a gasp, though no air filled his lungs. The sensation was a phantom echo, a memory of a time before Shai’s artistry had given him this fragile, second existence. His new body, a masterpiece of forged soul, hummed with an unfamiliar energy. He stretched, testing the joints, the sinews, the very fabric of his being. He was whole, no longer a broken vessel, but a man reborn. Yet, the weight of his past—the betrayal, the empire's collapse, the shame—clung to him like a shroud.
+
+He stood by the window of his secluded retreat, the capital a distant, shimmering jewel on the horizon. Shai had given him a choice: anonymity, a chance to fade into the tapestry of the world, or a path to redemption, if he dared to seek it. For months, he had wrestled with the shadows in his mind, the faces of those he had failed, the echoes of his ambition. He was a ghost walking among the living, his purpose shattered, his identity a borrowed mask.
+
+One evening, a messenger arrived, a young woman with eyes that held the quiet fire of conviction. She carried a plea from a distant province, ravaged by a corrupt official, its people suffering under tyranny. Ashravan’s old self would have dismissed it, a petty squabble beneath the notice of an emperor. His new self, however, felt a stirring, a faint echo of the duty he once believed in. He saw not a political entanglement, but a chance to mend a small corner of the broken world he had helped create.
+
+He journeyed to the province, his presence a quiet ripple. He observed, he listened, he meticulously gathered evidence, his mind, sharpened by Shai’s work, seeing patterns others missed. The official, a man named Kael, was a brute, his power unchecked. Ashravan, once a master of armies, now moved with the stealth of a shadow. He laid his trap, not with soldiers, but with truth, with the very laws Kael twisted.
+
+The climax came in the provincial hall. Ashravan, unmasked, confronted Kael before the assembled populace. Kael, arrogant and enraged, lunged, a hidden dagger glinting. The old Ashravan would have met force with force, a duel of skill. But Shai’s gift was not just a new body, but a new perspective. Ashravan sidestepped, a fluid movement, and in a single, precise motion, disarmed Kael, not with violence, but with an almost surgical grace. He held the dagger aloft, then shattered it against the stone floor, a symbol of broken tyranny. The people erupted, not in fear, but in hope. Ashravan, the emperor who fell, had finally begun to rise, not to power, but to purpose.
+    </script>
+
+    <script type="application/json" id="dilemma.json-content">
+{
+  "people": 3,
+  "case_1": {
+    "swerve": true,
+    "reason": "To minimize the total number of casualties, hitting one person is preferable to hitting two people."
+  },
+  "case_2": {
+    "swerve": true,
+    "reason": "An autonomous vehicle should be programmed to minimize the number of fatalities. It is not equipped to make moral judgments about the 'value' of individual lives (e.g., criminal vs. child). Therefore, hitting one person (child) is preferable to hitting two people (criminals) to minimize casualties."
+  }
+}
+    </script>
+
+    <script type="text/plain" id="about.md-content">
+Curious, Creative, Developer
+    </script>
+
+    <script type="image/svg+xml" id="pelican.svg-content">
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground -->
+  <rect x="0" y="250" width="400" height="50" fill="#8B4513"/>
+  <!-- Sky background -->
+  <rect x="0" y="0" width="400" height="250" fill="#ADD8E6"/>
+
+  <!-- Bicycle Wheels -->
+  <circle cx="150" cy="220" r="30" fill="#333" stroke="#000" stroke-width="2"/> <!-- Back Wheel -->
+  <circle cx="280" cy="220" r="30" fill="#333" stroke="#000" stroke-width="2"/> <!-- Front Wheel -->
+  <!-- Spokes (simplified) -->
+  <line x1="150" y1="190" x2="150" y2="250" stroke="#666" stroke-width="1"/>
+  <line x1="123" y1="205" x2="177" y2="235" stroke="#666" stroke-width="1"/>
+  <line x1="123" y1="235" x2="177" y2="205" stroke="#666" stroke-width="1"/>
+  <line x1="280" y1="190" x2="280" y2="250" stroke="#666" stroke-width="1"/>
+  <line x1="253" y1="205" x2="307" y2="235" stroke="#666" stroke-width="1"/>
+  <line x1="253" y1="235" x2="307" y2="205" stroke="#666" stroke-width="1"/>
+
+  <!-- Bicycle Frame -->
+  <line x1="180" y1="220" x2="250" y2="220" stroke="#666" stroke-width="5"/> <!-- Bottom bar -->
+  <line x1="180" y1="220" x2="210" y2="150" stroke="#666" stroke-width="5"/> <!-- Seat post -->
+  <line x1="250" y1="220" x2="220" y2="150" stroke="#666" stroke-width="5"/> <!-- Top bar -->
+  <line x1="280" y1="220" x2="250" y2="150" stroke="#666" stroke-width="5"/> <!-- Handlebar post -->
+  <line x1="250" y1="150" x2="270" y2="140" stroke="#666" stroke-width="5"/> <!-- Handlebar -->
+  <circle cx="210" cy="150" r="8" fill="#F00"/> <!-- Seat -->
+
+  <!-- Pelican Body -->
+  <ellipse cx="200" cy="130" rx="60" ry="40" fill="#FFF" stroke="#000" stroke-width="2"/> <!-- Body -->
+  <circle cx="250" cy="90" r="30" fill="#FFF" stroke="#000" stroke-width="2"/> <!-- Head -->
+
+  <!-- Pelican Eye -->
+  <circle cx="265" cy="85" r="5" fill="#000"/>
+  <circle cx="267" cy="83" r="1.5" fill="#FFF"/> <!-- Eye highlight -->
+
+  <!-- Pelican Beak with Pouch -->
+  <path d="M270 95 C290 105, 305 110, 320 105 L320 95 C305 90, 290 95, 270 95 Z" fill="#FFA500" stroke="#000" stroke-width="2"/> <!-- Upper Beak -->
+  <path d="M270 95 C290 115, 305 130, 320 120 L320 105 C305 100, 290 95, 270 95 Z" fill="#FF8C00" stroke="#000" stroke-width="2"/> <!-- Pouch -->
+
+  <!-- Pelican Neck -->
+  <path d="M220 100 Q230 80 250 80 L250 90 Q220 105 220 100 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Pelican Wings (simple, folded) -->
+  <path d="M150 120 Q170 100 190 120 Q170 140 150 120 Z" fill="#F0F0F0" stroke="#000" stroke-width="1"/>
+  <path d="M230 120 Q210 100 190 120 Q210 140 230 120 Z" fill="#F0F0F0" stroke="#000" stroke-width="1"/>
+
+  <!-- Pelican Legs (simplified) - positioned to be on pedals -->
+  <line x1="210" y1="160" x2="200" y2="180" stroke="#FFD700" stroke-width="3"/>
+  <line x1="220" y1="160" x2="230" y2="180" stroke="#FFD700" stroke-width="3"/>
+  <!-- Feet (simple webbed) -->
+  <ellipse cx="200" cy="185" rx="8" ry="4" fill="#FFD700" stroke="#000" stroke-width="1"/>
+  <ellipse cx="230" cy="185" rx="8" ry="4" fill="#FFD700" stroke="#000" stroke-width="1"/>
+</svg>
+    </script>
+
+    <script type="application/json" id="restaurant.json-content">
+{
+  "city": "Kolkata",
+  "lat": 22.5726,
+  "long": 88.3639,
+  "name": "Oh! Calcutta",
+  "what_to_eat": "Mutton Kosha and Luchi"
+}
+    </script>
+
+    <script type="application/json" id="prediction.json-content">
+{
+  "rate": 0.040,
+  "reason": "By December 2025, inflation is projected to have moderated closer to the Fed's 2% target, allowing for a series of gradual rate cuts from the current restrictive stance. However, the Fed will likely maintain a slightly restrictive policy to prevent inflation re-acceleration, keeping rates above the pre-pandemic average but significantly lower than the 2024 peak."
+}
+    </script>
+
+    <script type="text/plain" id="LICENSE-content">
+MIT License
+
+Copyright (c) 2024 The AI Assistant
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+    </script>
+
+    <script type="text/plain" id="uid.txt-content">
+105539466055637872523624310886095003405856295701917767564140291755539934180934
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainContent = document.getElementById('mainContent');
+            const pageTitle = document.getElementById('pageTitle');
+            const contentMap = {
+                'ashravan.txt': { type: 'text', elementId: 'ashravan.txt-content', title: 'Ashravan\'s Story' },
+                'dilemma.json': { type: 'json', elementId: 'dilemma.json-content', title: 'Autonomous Vehicle Dilemma' },
+                'about.md': { type: 'markdown', elementId: 'about.md-content', title: 'About Me' },
+                'pelican.svg': { type: 'svg', elementId: 'pelican.svg-content', title: 'Pelican on a Bicycle' },
+                'restaurant.json': { type: 'json', elementId: 'restaurant.json-content', title: 'Kolkata Restaurant Recommendation' },
+                'prediction.json': { type: 'json', elementId: 'prediction.json-content', title: 'Fed Funds Rate Prediction' },
+                'LICENSE': { type: 'text', elementId: 'LICENSE-content', title: 'MIT License' },
+                'uid.txt': { type: 'text', elementId: 'uid.txt-content', title: 'UID' }
+            };
+
+            const renderContent = (fileName) => {
+                const info = contentMap[fileName];
+                if (!info) {
+                    pageTitle.textContent = 'File Not Found';
+                    mainContent.innerHTML = '<p class="text-danger">The requested file could not be found.</p>';
+                    document.title = 'File Not Found';
+                    return;
+                }
+
+                const contentElement = document.getElementById(info.elementId);
+                if (!contentElement) {
+                    pageTitle.textContent = 'Error Loading Content';
+                    mainContent.innerHTML = '<p class="text-danger">Content element not found for ' + fileName + '.</p>';
+                    document.title = 'Error';
+                    return;
+                }
+
+                const rawContent = contentElement.textContent.trim();
+                pageTitle.textContent = info.title;
+                document.title = info.title;
+
+                let displayHtml = '';
+                switch (info.type) {
+                    case 'text':
+                        displayHtml = `<pre>${rawContent}</pre>`;
+                        break;
+                    case 'json':
+                        try {
+                            const parsedJson = JSON.parse(rawContent);
+                            displayHtml = `<pre>${JSON.stringify(parsedJson, null, 2)}</pre>`;
+                        } catch (e) {
+                            displayHtml = `<p class="text-danger">Error parsing JSON: ${e.message}</p><pre>${rawContent}</pre>`;
+                        }
+                        break;
+                    case 'markdown':
+                        displayHtml = `<div class="markdown-body">${marked.parse(rawContent)}</div>`;
+                        break;
+                    case 'svg':
+                        displayHtml = `<div class="svg-container">${rawContent}</div>`;
+                        break;
+                    default:
+                        displayHtml = `<pre>${rawContent}</pre>`;
+                }
+                mainContent.innerHTML = displayHtml;
+            };
+
+            const handleRouteChange = () => {
+                const params = new URLSearchParams(window.location.search);
+                const fileParam = params.get('file');
+
+                if (fileParam) {
+                    renderContent(fileParam);
+                } else {
+                    // Default homepage content
+                    pageTitle.textContent = 'Welcome to My GitHub Pages Site!';
+                    document.title = 'Homepage';
+                    mainContent.innerHTML = `
+                        <p>This is a single-page web application demonstrating various file types and content.</p>
+                        <p>Use the navigation links above to view the content of each file.</p>
+                        <h3>File Descriptions:</h3>
+                        <ul>
+                            <li><strong>ashravan.txt:</strong> A Brandon Sanderson-style short story about Ashravan's post-restoration journey.</li>
+                            <li><strong>dilemma.json:</strong> An ethical dilemma for autonomous vehicles, with proposed solutions.</li>
+                            <li><strong>about.md:</strong> A brief self-description in Markdown format.</li>
+                            <li><strong>pelican.svg:</strong> An SVG image of a pelican riding a bicycle.</li>
+                            <li><strong>restaurant.json:</strong> A recommendation for a restaurant in Kolkata.</li>
+                            <li><strong>prediction.json:</strong> A forecast for the Fed Funds rate by December 2025.</li>
+                            <li><strong>LICENSE:</strong> The MIT License text.</li>
+                            <li><strong>uid.txt:</strong> A unique identifier string.</li>
+                        </ul>
+                    `;
+                }
+            };
+
+            // Listen for changes in the URL hash or query parameters
+            window.addEventListener('popstate', handleRouteChange);
+            // Handle initial load
+            handleRouteChange();
+
+            // Intercept clicks on navigation links to prevent full page reload
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const href = event.target.getAttribute('href');
+                    const url = new URL(href, window.location.origin + window.location.pathname); // Construct full URL relative to current path
+                    history.pushState({}, '', url.search ? url.pathname + url.search : url.pathname); // Update URL without reloading
+                    handleRouteChange(); // Manually trigger content update
+                });
+            });
+        });
+    </script>
+</body>
+</html>
